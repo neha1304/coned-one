@@ -1,0 +1,8 @@
+<?php
+
+define('DB_HOST', 'localhost:3308');
+define('DB_NAME', 'test');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'root');
+
+$connection = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME) or die(mysqli_connect_error());
